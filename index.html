@@ -14,11 +14,48 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
+<header>
+    <img src="images/logo/Booki.png" alt="logo Booki" class="logo">
+    <nav>
+        <a href="#hebergements"><button>Hébergements</button></a>
+        <a href="#"><button>Activités</button></a>
+    </nav>
+</header>
 <body>
     <div class="main-container">
-        <header></header>
         <main>
-            <div class="hebergements-and-populaires">
+            <section class="info">
+                <div class="headline">  
+                    <p class="headline-1">
+                      Trouvez votre hébergement pour des vacances de rêve
+                    </p>
+                   <p class="headline-2">
+                       En plein centre-ville ou en pleine nature
+                    </p>
+                    
+                </div>
+                <div class="search-bar">
+                     <form action="" method="get">
+                         <i class="fa-solid fa-location-dot fa-lg" style="color: #000000;"></i>
+                         <input type="text" name="map" id="map">
+                         <input class="rechercher" type="submit" value="Rechercher">
+                     </form>
+                </div>
+                <div class="filtre">
+                    <span>Filtres</span>
+                    <a class="filtre-eco" href="#"><i class="fa-solid fa-money-bill-wave fa-lg"></i>Économique</a>
+                    <a class="filtre-famille" href="#"><i class="fa-solid fa-person fa-lg"></i>Familial</a>
+                    <a class="filtre-romantique" href="#"><i class="fa-solid fa-heart"></i>Romantique</a>
+                    <a class="filtre-pepite" href="#"><i class="fa-solid fa-fire"></i>Nos pépites</a>
+                </div>
+                <div class="infobar">
+                    <p>
+                        <span class="i"><i class="fa-solid fa-info fa-2xs"></i></span>
+                        Plus de 500 logements sont disponibles dans cette ville
+                    </p>
+                </div>
+            </section>
+            <div class="hebergements-and-populaires" id="hebergements">
                 <section class="hebergements">
 
                 </section>
@@ -52,7 +89,7 @@
                                 <img src="./images/hebergements/aw-creative.jpg" alt="Image de la chambre d'hôtel montrant un lit">
                                 <div class="card-content">
                                     <div class="card-txt">
-                                        <h3 class="card-title">Chambres d’hôtes Au cœur de l’eau</h3>
+                                        <h3 class="card-title">Chambres d'hôtes Au cœur de l'eau</h3>
                                         <p class="card-subtitle">Nuit à partir de 71<span class="euro">€</span></p>
                                     </div>
                                     <div class="card-rating">
@@ -89,7 +126,9 @@
                 </section>
             </div>
         </main>
-        <footer></footer>
+        <footer>
+
+        </footer>
     </div>
 </body>
 
