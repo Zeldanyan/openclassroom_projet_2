@@ -14,8 +14,8 @@
 }
 
 body {
-    /*display: flex;*/
     justify-content: center;
+    margin: 0;
 }
 
 .main-container {
@@ -125,7 +125,8 @@ a {
 
 header {
     height: 79px;
-    width: 100%;
+    padding-right: 50px;
+    max-width: 1390px;
 }
 
 header .logo {
@@ -150,6 +151,11 @@ nav button {
     padding-top: 15px;
     margin-left: 69px;
     cursor: pointer;
+}
+
+nav .nav-heberg button {
+    color: var(--main-color);
+    border-top: solid 2px var(--main-color);
 }
 
 .info {
