@@ -288,11 +288,59 @@ nav .nav-heberg button {
     max-width: 220px;
 }
 
+.hebergements-cards .card-content {
+    padding: 0 10px;
+}
+
 .hebergements-cards img {
     height: 124px;
     width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+}
+
+/****** Z- Activité ******/
+
+.activites {
+    margin: 30px 0;
+}
+
+.activites .part {
+    margin: 30px;
+}
+
+.activites .activites-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.activites-cards {
+    height: 439px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.activites-cards .card {
+    padding: 0;
+    width: 20vw;
+    max-width: 297.5px;
+}
+
+.activites-cards img {
+    height: 380px;
+    padding: 0;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.activites-cards .card-content {
+    padding: 20px 19px;
+}
+
+.activites-cards h3 {
+    margin: 0;
 }
 
 
