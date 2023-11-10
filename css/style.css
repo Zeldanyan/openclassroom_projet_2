@@ -319,7 +319,7 @@ nav .nav-heberg button {
     height: 439px;
     border-radius: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .activites-cards .card {
@@ -343,6 +343,27 @@ nav .nav-heberg button {
     margin: 0;
 }
 
+footer {
+    display: flex;
+    background-color: var(--main-bg-color);
+    margin-top: 65px;
+}
+
+footer .foot {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 33.33%;
+    align-content: space-between;
+}
+
+footer .foot .hf {
+    font-size: 18px;
+    font-weight: 700;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
