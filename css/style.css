@@ -136,24 +136,22 @@ header .logo {
 }
 
 nav {
+    display: flex;
     float: right;
     padding: 0px 25px 0px 25px;
     height: 35px;
 }
 
-nav button {
+nav a {
+    display: block;
     text-align: center;
-    vertical-align: bottom ;
-    height: 100%;
-    background-color: white;
-    border: none;
     padding-top: 15px;
     margin-left: 69px;
     cursor: pointer;
     font-size: 16px;
 }
 
-nav .nav-heberg button {
+nav .nav-heberg {
     color: var(--main-color);
     border-top: solid 2px var(--main-color);
 }
@@ -215,7 +213,7 @@ nav .nav-heberg button {
 }
 
 .info .filtre {
-    height: max-content;
+    height: 50px;
     vertical-align: sub;
     display: flex;
     align-items: center;
@@ -228,6 +226,13 @@ nav .nav-heberg button {
     font-weight: 700;
     text-align: center;
     height: 100%;
+    margin-right: 14px;
+}
+
+.info .filtre-option {
+    vertical-align: sub;
+    display: flex;
+    align-items: center;
 }
 
 .info .filtre .fa-solid {
@@ -244,7 +249,7 @@ nav .nav-heberg button {
     border-radius: 25px;
     text-align: center;
     height: 38.8px;
-    margin: 0 7.5px;
+    margin-right: 14px;
     padding: 4px 19px 4px 19px;
 }
 
@@ -297,6 +302,12 @@ nav .nav-heberg button {
     width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+}
+
+.hebergements .afficherplus {
+    font-weight: 700;
+    font-size: 18px;
+    padding-top: 30px;
 }
 
 /****** Z- Activité ******/
@@ -399,6 +410,31 @@ footer .foot .hf {
 
     .populaires-cards .card-subtitle {
         font-size: 13px;
+    }
+
+    /****** Z- format tablette ******/
+
+    /*** filtre ***/
+    .info .filtre {
+        display: contents;
+    }
+
+    .info .filtre-option {
+        margin-top: 20px;
+    }
+
+    /*** herbergement ***/
+    .hebergements-cards .card {
+        width: 25vw;
+    }
+
+    /*** activitée ***/
+    .activites-cards {
+        height: 270px;
+    }
+
+    .activites-cards img {
+        height: 200px;
     }
 }
 
