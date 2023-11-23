@@ -160,7 +160,7 @@ nav .nav-heberg {
 /****** Z- Info and Filtre ******/
 
 .info {
-    display: flexbox;
+    display: block;
 }
 
 .info div {
