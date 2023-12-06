@@ -157,7 +157,7 @@ nav .nav-heberg {
     border-top: solid 2px var(--main-color);
 }
 
-/****** Z- Info and Filtre ******/
+/****** Z- Info et Filtre ******/
 
 .info {
     display: block;
@@ -178,6 +178,8 @@ nav .nav-heberg {
     font-weight: 400;
     margin: 0;
 }
+
+/* form */
 
 .info .search-bar form {
     background-color: var(--main-bg-color);
@@ -207,7 +209,7 @@ nav .nav-heberg {
     padding: 0;
 }
 
-.info .search-bar form .rechercher {
+.info .search-bar form .rechercher { /* bouton pc & tablette */
     height: 100%;
     text-align: center;
     border: none;
@@ -218,9 +220,11 @@ nav .nav-heberg {
     background-color: var(--main-color);
 }
 
-.info .search-bar .rechercher-tel {
+.info .search-bar .rechercher-tel { /* bouton tel */
     display: none;
 }
+
+/* filtre */
 
 .info .filtre {
     height: 50px;
@@ -364,6 +368,8 @@ nav .nav-heberg {
     margin: 0;
 }
 
+/* pied de page */
+
 footer {
     display: flex;
     background-color: var(--main-bg-color);
@@ -391,6 +397,9 @@ footer .foot .hf {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+
+    /****** Z- format tablette ******/
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -421,8 +430,6 @@ footer .foot .hf {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
-
-    /****** Z- format tablette ******/
 
     /*** filtre ***/
     .info .filtre {
@@ -456,6 +463,8 @@ footer .foot .hf {
         padding: 0;
     }
 
+    /* header tel */
+
     header {
         display: flex;
         justify-content: center;
@@ -483,9 +492,13 @@ footer .foot .hf {
         border-bottom: solid 2px var(--main-color);
     }
 
+    /* info tel */
+
     .info {
         padding: 0 20px;
     }
+
+    /* form */
 
     .info .search-bar form {
         width: 100%;
@@ -499,11 +512,11 @@ footer .foot .hf {
         width: 100%;
     }
 
-    .info .search-bar .rechercher {
+    .info .search-bar .rechercher { /* bouton pc & tablette */
         display: none;
     }
 
-    .info .search-bar form .rechercher-tel {
+    .info .search-bar form .rechercher-tel { /* bouton tel */
         display: inline-flex;
         height: 100%;
         width: 49px;
@@ -524,6 +537,8 @@ footer .foot .hf {
         color: white;
     }
 
+    /* filtre */
+
     .info .filtre a {
         margin: 0px;
         width: calc(50% - 46px);
@@ -537,6 +552,8 @@ footer .foot .hf {
         width: 100%;
         margin-top: 0;
     }
+
+    /* hebergement */
 
     .hebergements-and-populaires {
         flex-direction: column-reverse;
@@ -605,3 +622,5 @@ footer .foot .hf {
         padding: 0;
     }
 }
+
+/* code by zelda, github @zeldanyan */
