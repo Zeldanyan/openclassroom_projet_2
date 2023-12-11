@@ -152,7 +152,7 @@ nav a {
     font-size: 16px;
 }
 
-nav .nav-heberg {
+nav a:hover {
     color: var(--main-color);
     border-top: solid 2px var(--main-color);
 }
@@ -197,6 +197,7 @@ nav .nav-heberg {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    color: black;
 }
 
 .info .search-bar form #map {
@@ -207,6 +208,11 @@ nav .nav-heberg {
     font-size: 18px;
     text-align: center;
     padding: 0;
+}
+
+.info .search-bar form #map::placeholder {
+    color: black;
+    font-weight: 700;
 }
 
 .info .search-bar form .rechercher { /* bouton pc & tablette */
@@ -487,7 +493,7 @@ footer .foot .hf {
         width: 50%;
     }
 
-    nav .nav-heberg {
+    nav a:hover {
         border-top: none;
         border-bottom: solid 2px var(--main-color);
     }
